@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Library</title>
+	<script src="script.js" defer></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div>
+		<button id="add-book">Add a book</button>
+	</div>
+	<dialog id="dialog">
+		<form method="dialog">
+			<div>
+				<label for="title">
+					Book title:
+					<input type="text" id="title" name="title" placeholder="The Lord of the Rings" required>
+				</label>
+			</div>
+			<div>
+				<label for="author">
+					Author:
+					<input type="text" id="author" name="author" placeholder="J.R.R. Tolkien" required>
+				</label>
+			</div>
+			<div>
+				<label for="pages">
+					Number of pages:
+					<input type="number" id="pages" name="pages" min="1" required>
+				</label>
+			</div>
+			<div>
+				<label for="read"><input type="checkbox" id="read" name="read" required>I read it!</label>
+			</div>
+			<button type="submit" id="create-book">Add book</button>
+			<button type="button" id="close">Close</button>
+		</form>
+	</dialog>
+</body>
+</html>

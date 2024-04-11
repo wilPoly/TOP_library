@@ -1,0 +1,21 @@
+#wrapper {
+	display: flex;
+	background-color: coral;
+	max-width: 50%;
+	margin: 10px auto;
+	padding: 5px;
+	flex-wrap: wrap;
+}
+
+.book-card {
+	display: flex;
+	flex-direction: column;
+	background-color: aqua;
+	padding: 5px;
+	margin: 1rem;
+	max-width: 50%;
+}
+
+.book-item {
+	padding: 0.2em;
+}
